@@ -36,16 +36,13 @@ updatelocalstorage();
 updatevalues()
 text.value="";
 amount.value="";
-
-
 }
-
 };
 
 function generateID(){
 return Math.floor(Math.random()*100000)
-
 }
+
 
 function addtransactionsDOM(transactions) {
 
@@ -57,12 +54,7 @@ transactions.amount < 0 ? "minus":"plus"
 );
 
 item.innerHTML=`${transactions.text}<span>${sign}${Math.abs(transactions.amount)}</span><button onclick="removetransaction(${transactions.id})">X</button>`;
-    
-  
-    
- 
 list1.appendChild(item);
-
 }
 
 function removetransaction(id){
