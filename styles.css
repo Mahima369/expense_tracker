@@ -24,13 +24,13 @@ body{
 /* margin:35px auto; */
 width: 350px;
 margin-top: 0px;
-
 }
 
 h1{
     margin:0px;
     margin-bottom: 5px;
 }
+
 h3{
     border-bottom: 1px solid #bbb;
     padding-bottom: 10px;
@@ -40,7 +40,6 @@ h3{
 h4{
     margin:0px;
     text-transform: uppercase;
-   
 }
 
 
@@ -50,15 +49,14 @@ background-color: #fff;
 padding: 20px;
 justify-content: center;
 margin:20px 0px;
-
 }
 
 .income-expense>div{
 flex:1;
 text-align: center;
 }
-.income-expense>div:first-of-type{
 
+.income-expense>div:first-of-type{
     border-right: 1px solid #dedede;
 }
 
@@ -94,14 +92,15 @@ width: 100%;
 cursor:pointer;
 color:white;
 border:none;
-
 }
+
 .list{
     list-style-type: none;
     padding: 0px;
     /* margin-left: 0px; */
     margin-bottom: 40px;
 }
+
 .list li{
     background-color:#fff;
     margin:10px 0px;
@@ -126,36 +125,20 @@ border:none;
 
 @media(max-width:350px) {
 .container{
-
-
     width: 300px;
 }
-
-
-
 }
-
 
 @media(max-width:300px) {
     .container{
-    
-    
         width: 250px;
     }
-    
-    
-    
     }
 
-    @media(max-width:270px) {
+@media(max-width:270px) {
         .container{
-        
-        
             width: 230px;
         }
-        
-        
-        
         }
     
     
